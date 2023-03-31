@@ -113,5 +113,15 @@ void display() {
 }
 
 
+int main(){
+
+	input();
+	//sort the array using quick sort
+	q_short(0, n - 1);
+	display();
+	system("pause");
+
+	return 0;
+}
 
 
